@@ -1,0 +1,28 @@
+{
+    "name": "xtwoend/hy-zenziva-wa",
+    "description": "Zenziva client for hyperf framework",
+    "type": "library",
+    "require": {
+        "php": "^8.0",
+        "hyperf/guzzle": "^2.2"
+    },
+    "autoload": {
+        "Xtwoend\\ZenzivaClient\\": "src/"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdul Hafidz Anshari",
+            "email": "aditans88@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "hyperf": {
+            "config": "Xtwoend\\ZenzivaClient\\ConfigProvider"
+        }
+    }
+}
