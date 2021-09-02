@@ -1,5 +1,5 @@
 {
-    "name": "xtwoend/hy-zenziva-wa",
+    "name": "xtwoend/hy-zenziva-client",
     "description": "Zenziva client for hyperf framework",
     "type": "library",
     "require": {
